@@ -4,7 +4,7 @@ import { Container } from "components/components";
 const Home: NextPage = () => {
   return (
     <Container>
-      <h1>Hello Next.js</h1>
+      <h1>CV, generate your cv online with just clicks</h1>
     </Container>
   );
 };
