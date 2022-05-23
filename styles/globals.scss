@@ -1,8 +1,7 @@
 @use "mixins";
-$p-color: #000;
-$p-color-text: #fff;
+@import "variables";
 
 body {
-  background-color: $p-color;
-  color: $p-color-text;
+  background-color: $primary-bg;
+  color: $primary-text;
 }
