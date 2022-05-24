@@ -13,9 +13,9 @@ const Home: NextPage = () => {
             <Link href='/'>About</Link>
             <Link href='/'>Contact</Link>
           </div>
-          <button className='btn'>
-            <Link href='/'>Login</Link>
-          </button>
+          <Link href='/'>
+            <a className='btn'>Login</a>
+          </Link>
         </div>
       </section>
     </div>
