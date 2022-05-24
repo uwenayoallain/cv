@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @font-face {
   font-family: "Chillax-Regular";
-  src: url("../fonts/Chillax-Regular.woff2") format("woff2"),
-    url("../fonts/Chillax-Regular.woff") format("woff"),
-    url("../fonts/Chillax-Regular.ttf") format("truetype");
+  src: url("../public/fonts/Chillax-Regular.woff2") format("woff2"),
+    url("../public/fonts/Chillax-Regular.woff") format("woff"),
+    url("../public/fonts/Chillax-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -13,9 +13,9 @@
 
 @font-face {
   font-family: "Chillax-Medium";
-  src: url("../fonts/Chillax-Medium.woff2") format("woff2"),
-    url("../fonts/Chillax-Medium.woff") format("woff"),
-    url("../fonts/Chillax-Medium.ttf") format("truetype");
+  src: url("../public/fonts/Chillax-Medium.woff2") format("woff2"),
+    url("../public/fonts/Chillax-Medium.woff") format("woff"),
+    url("../public/fonts/Chillax-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
@@ -23,9 +23,9 @@
 
 @font-face {
   font-family: "Chillax-Semibold";
-  src: url("../fonts/Chillax-Semibold.woff2") format("woff2"),
-    url("../fonts/Chillax-Semibold.woff") format("woff"),
-    url("../fonts/Chillax-Semibold.ttf") format("truetype");
+  src: url("../public/fonts/Chillax-Semibold.woff2") format("woff2"),
+    url("../public/fonts/Chillax-Semibold.woff") format("woff"),
+    url("../public/fonts/Chillax-Semibold.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
   font-style: normal;
@@ -33,9 +33,9 @@
 
 @font-face {
   font-family: "Chillax-Bold";
-  src: url("../fonts/Chillax-Bold.woff2") format("woff2"),
-    url("../fonts/Chillax-Bold.woff") format("woff"),
-    url("../fonts/Chillax-Bold.ttf") format("truetype");
+  src: url("../public/fonts/Chillax-Bold.woff2") format("woff2"),
+    url("../public/fonts/Chillax-Bold.woff") format("woff"),
+    url("../public/fonts/Chillax-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -45,7 +45,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Chillax-Bold", "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
 }
 
@@ -80,6 +80,21 @@ section {
 .flex {
   display: flex;
   align-items: center;
+}
+
+.nav-links {
+  background: aqua;
+  // width: 60%;
+  a {
+    color: $primary-text-hover;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 1s;
+    &:hover {
+      color: $primary-text;
+    }
+  }
 }
 
 .justify-content {

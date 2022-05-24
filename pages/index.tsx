@@ -7,11 +7,19 @@ const Home: NextPage = () => {
       <section className='header_section'>
         <div className='flex justify-content'>
           <div className='logo' />
-          <div>
-            <Link href='/'>How It Works</Link>
-            <Link href='/'>FAQ</Link>
-            <Link href='/'>About</Link>
-            <Link href='/'>Contact</Link>
+          <div className='nav-links'>
+            <Link href='/'>
+              <a>How It Works</a>
+            </Link>
+            <Link href='/'>
+              <a>FAQ</a>
+            </Link>
+            <Link href='/'>
+              <a>About</a>
+            </Link>
+            <Link href='/'>
+              <a>Contact</a>
+            </Link>
           </div>
           <Link href='/'>
             <a className='btn'>Login</a>
