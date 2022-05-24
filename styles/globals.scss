@@ -4,4 +4,13 @@
 body {
   background-color: $primary-bg;
   color: $primary-text;
+  margin: 0;
+  padding: 0;
+
+  div.logo {
+    // background-color: #fff;
+    width: 200px;
+    height: 200px;
+    background-image: url("/public/logo_white.svg");
+  }
 }

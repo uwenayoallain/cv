@@ -4,6 +4,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <p>Hello Next.js</p>
+      <div className='logo'></div>
     </div>
   );
 };
