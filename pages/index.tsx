@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <section className='header_section'>
-        <div className='flex justify-content'>
+        <div className='nav flex justify-content'>
           <div className='logo' />
           <div className='nav-links'>
             <Link href='/'>
