@@ -1,17 +1,26 @@
 @use "mixins";
 @import "variables";
 
-body {
-  background-color: $primary-bg;
-  color: $primary-text;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
 
-  div.logo {
-    // background-color: #fff;
-    width: 46px;
-    height: 65px;
-    background-image: url("../public/logo_white.svg");
-    background-size: contain;
+body {
+  .header_section {
+    background: $primary-bg;
+    .logo {
+      width: 46px;
+      height: 65px;
+      background-image: url("../public/logo_white.svg");
+      background-size: contain;
+    }
   }
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
 }
