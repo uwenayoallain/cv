@@ -34,7 +34,7 @@ const Home: NextPage = () => {
                 tools that makes your application rejected. we&apos;ve got your
                 back
               </p>
-              <div className='red'>
+              <div>
                 <Link href='/'>
                   <a className='btn'>Get Started</a>
                 </Link>

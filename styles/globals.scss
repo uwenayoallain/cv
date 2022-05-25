@@ -34,7 +34,8 @@
 @font-face {
   font-family: "Chillax-Bold";
   src: url("../public/fonts/Chillax-Bold.woff2") format("woff2"),
-    url("../public/fonts/Chillax-Bold.woff") format("woff"), url("../public/fonts/Chillax-Bold.ttf") format("truetype");
+    url("../public/fonts/Chillax-Bold.woff") format("woff"),
+    url("../public/fonts/Chillax-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -50,6 +51,7 @@
 
 .header_section {
   background: $primary-bg;
+  clip-path: ellipse(100% 100% at 50% 5%);
   .nav {
     height: 10vh;
     .logo {
@@ -86,14 +88,19 @@
       align-items: center;
     }
     & > .half:first-child {
-      p {
-        color: $primary-text;
-        font-size: 20px;
-        margin: 20px 0;
-      }
       & > div {
         width: 100%;
         height: 60%;
+        p {
+          color: $primary-text;
+          font-size: 20px;
+          margin: 40px 0;
+        }
+      }
+      a {
+        font-size: 24px;
+        padding: 15px 30px;
+        margin: 5px;
       }
     }
   }
