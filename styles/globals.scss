@@ -34,8 +34,7 @@
 @font-face {
   font-family: "Chillax-Bold";
   src: url("../public/fonts/Chillax-Bold.woff2") format("woff2"),
-    url("../public/fonts/Chillax-Bold.woff") format("woff"),
-    url("../public/fonts/Chillax-Bold.ttf") format("truetype");
+    url("../public/fonts/Chillax-Bold.woff") format("woff"), url("../public/fonts/Chillax-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -111,6 +110,13 @@ a {
   transition: 1s;
   &:hover {
     background: $primary-btn-hover;
+  }
+  &.v-2 {
+    background: $primary-heading;
+    color: $primary-text;
+    &:hover {
+      background: $primary-heading-hover;
+    }
   }
 }
 section {
