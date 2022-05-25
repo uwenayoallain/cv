@@ -79,19 +79,22 @@
     height: 85vh;
     display: flex;
     flex-wrap: wrap;
-    .half {
+    & > .half {
       width: 50%;
       height: 100%;
-      padding: 10px 40px;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
       align-items: center;
     }
-    .half:first-child {
+    & > .half:first-child {
       p {
-        font-size: 20px;
         color: $primary-text;
+        font-size: 20px;
+        margin: 20px 0;
+      }
+      & > div {
+        width: 100%;
+        height: 60%;
       }
     }
   }

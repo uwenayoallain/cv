@@ -27,19 +27,21 @@ const Home: NextPage = () => {
         </div>
         <div className='content'>
           <div className='half'>
-            <h1>The Only one resume maker online free to use</h1>
-            <p>
-              Hey, you can&apos;t stress out making your resume or using some
-              tools that makes your application rejected. we&apos;ve got your
-              back
-            </p>
-            <div className='red'>
-              <Link href='/'>
-                <a className='btn'>Get Started</a>
-              </Link>
-              <Link href='/'>
-                <a className='btn'>Guest</a>
-              </Link>
+            <div>
+              <h1>The Only one resume maker online free to use</h1>
+              <p>
+                Hey, you can&apos;t stress out making your resume or using some
+                tools that makes your application rejected. we&apos;ve got your
+                back
+              </p>
+              <div className='red'>
+                <Link href='/'>
+                  <a className='btn'>Get Started</a>
+                </Link>
+                <Link href='/'>
+                  <a className='btn'>Guest</a>
+                </Link>
+              </div>
             </div>
           </div>
           <div className='half'>
