@@ -48,7 +48,13 @@ const Home: NextPage = () => {
           </div>
           <div className='half'>
             <div className='image'>
-              <Image src={template} alt='Template Image' className='image' />
+              <Image
+                src={template}
+                alt='Template Image'
+                className='image unselectable'
+                unselectable='on'
+                draggable='false'
+              />
             </div>
           </div>
         </div>
