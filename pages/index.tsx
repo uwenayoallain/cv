@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import template from "public/images/template.svg";
 
 const Home: NextPage = () => {
   return (
@@ -45,7 +47,9 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className='half'>
-            <h1>Test Case</h1>
+            <div className='image'>
+              <Image src={template} alt='Template Image' className='image' />
+            </div>
           </div>
         </div>
       </section>
