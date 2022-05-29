@@ -8,7 +8,9 @@ const Home: NextPage = () => {
     <div>
       <section className='header_section'>
         <div className='nav flex justify-content'>
-          <div className='logo' />
+          <Link href='/signup'>
+            <div className='logo' />
+          </Link>
           <div className='nav-links'>
             <Link href='/'>
               <a>How It Works</a>
