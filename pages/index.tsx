@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                 back
               </p>
               <div>
-                <Link href='/'>
+                <Link href='/signup'>
                   <a className='btn'>Get Started</a>
                 </Link>
                 <Link href='/'>
