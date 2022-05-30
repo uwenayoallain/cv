@@ -1,9 +1,18 @@
 import "../styles/globals.scss";
 import type { AppProps } from "next/app";
+import Head from "next/head";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  // add a custom title for all components
-  return <Component {...pageProps} title='Yarison | allain' />;
+  const pathName = useRouter().asPath.replace("/", "");
+  return (
+    <>
+      <Head>
+        <title>Cv | {pathName}</title>
+      </Head>
+      <Component {...pageProps} />;
+    </>
+  );
 }
 
 export default MyApp;
