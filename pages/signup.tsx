@@ -9,7 +9,9 @@ const SignUp: NextPage = () => {
             Hey, you can&apos;t stress out making your resume or using some
             tools that makes your application rejected. we&apos;ve got your back
           </p>
-          <form action=''></form>
+          <form action=''>
+            <input name="username" placeholder="username"/>
+          </form>
         </div>
       </section>
     </div>
