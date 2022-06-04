@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Cv | {pathName}</title>
       </Head>
+      // @ts-ignore
       <Component {...pageProps} />;
     </>
   );
