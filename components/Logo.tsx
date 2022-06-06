@@ -4,13 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 function LogoDark() {
   return (
-    <div className='w-full'>
+    <div className=''>
       <Link href='/'>
         <Image
           src={logo_dark}
           priority
           alt='dark version of the logo'
           draggable={false}
+          className='cursor-pointer'
         />
       </Link>
     </div>
@@ -19,13 +20,14 @@ function LogoDark() {
 
 function Logo() {
   return (
-    <div className='w-full'>
+    <div className=''>
       <Link href='/'>
         <Image
           src={logo_light}
           priority
           alt='light version of the logo'
           draggable={false}
+          className='cursor-pointer'
         />
       </Link>
     </div>

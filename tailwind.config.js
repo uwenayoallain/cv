@@ -12,6 +12,9 @@ module.exports = {
         chillax_medium: ["Chillax-Medium", "sans-serif"],
         sans: ["Inter", "sans-serif"],
       },
+      colors: {
+        dark: "#070826",
+      },
     },
   },
   plugins: [],

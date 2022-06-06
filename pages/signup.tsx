@@ -4,13 +4,11 @@ const SignUp: NextPage = () => {
   return (
     <div>
       <section className='h-screen flex'>
-        <div className='w-1/2'>
+        <div className='w-1/2 p-20'>
           <LogoDark />
-          <h1>Sign Up</h1>
-          <p>
-            Hey, you can&apos;t stress out making your resume or using some
-            tools that makes your application rejected. we&apos;ve got your back
-          </p>
+          <h1 className='text-dark font-chillax_bold text-7xl py-2'>
+            Create New Account
+          </h1>
           <form action=''>
             <input name='username' placeholder='username' />
           </form>
