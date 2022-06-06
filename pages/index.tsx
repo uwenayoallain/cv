@@ -2,10 +2,14 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import template from "public/images/template.svg";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>CV| The best cv maker online!</title>
+      </Head>
       <section className='header_section'>
         <div className='nav flex justify-content'>
           <Link href='/signup'>

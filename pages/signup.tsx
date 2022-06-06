@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 const SignUp: NextPage = () => {
   return (
     <div>
-      <section>
+      <section className="">
         <div>
           <h1>Sign Up</h1>
           <p>
