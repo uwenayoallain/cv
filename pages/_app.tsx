@@ -1,9 +1,7 @@
-import "../styles/globals.scss";
+import "../styles/global.css";
 import type { AppProps } from "next/app";
-import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const pathName = useRouter().asPath.replace("/", "");
   return <Component {...pageProps} />;
 }
 

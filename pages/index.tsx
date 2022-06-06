@@ -10,12 +10,12 @@ const Home: NextPage = () => {
       <Head>
         <title>CV| The best cv maker online!</title>
       </Head>
-      <section className='header_section'>
-        <div className='nav flex justify-content'>
+      <section className=''>
+        <div className=''>
           <Link href='/signup'>
-            <div className='logo' />
+            <div className='' />
           </Link>
-          <div className='nav-links'>
+          <div className=''>
             <Link href='/'>
               <a>How It Works</a>
             </Link>
@@ -30,11 +30,11 @@ const Home: NextPage = () => {
             </Link>
           </div>
           <Link href='/'>
-            <a className='btn'>Login</a>
+            <a className=''>Login</a>
           </Link>
         </div>
-        <div className='content'>
-          <div className='half'>
+        <div className=''>
+          <div className=''>
             <div>
               <h1>The Only one resume maker online free to use</h1>
               <p>
@@ -44,20 +44,20 @@ const Home: NextPage = () => {
               </p>
               <div>
                 <Link href='/signup'>
-                  <a className='btn'>Get Started</a>
+                  <a className=''>Get Started</a>
                 </Link>
                 <Link href='/'>
-                  <a className='btn v-2'>Guest</a>
+                  <a className=''>Guest</a>
                 </Link>
               </div>
             </div>
           </div>
-          <div className='half'>
-            <div className='image'>
+          <div className=''>
+            <div className=''>
               <Image
                 src={template}
                 alt='Template Image'
-                className='image'
+                className=''
                 draggable='false'
               />
             </div>
